@@ -1,0 +1,1 @@
+/*This file is used for functions to use for both index and blog.html files*/ 
