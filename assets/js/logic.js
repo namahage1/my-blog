@@ -21,3 +21,4 @@ themeSwitcher.addEventListener('click', function () {
     mainContainer.setAttribute('class', 'dark');
   }
 });
+

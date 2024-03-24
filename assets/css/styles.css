@@ -1,22 +1,8 @@
-/* body {
-    display: block;
-    margin: 0px;
-  }
-  
-  .button {
-    position: absolute;
-    top:50%;
-    background-color:transparent;
-  } */
- 
+
+
   p {
     font-size: 20px;
   }
-  /* 
-  .toggle {
-    width: 40px;
-    background-color: rgba(76, 175, 80, 0.15) 
-  }*/
   
   /* Dark Mode */
   .dark {
@@ -37,21 +23,6 @@
     background-color: rgb(251, 248, 248);
     position: relative;
 }
-  
-  /* Styling the Switch button */
-  /* .switch { */
-   /* position: relative;
-     display: inline-block; */
-    /* background-color: transparent;
- 
-  }  */
-  
-  /* Hide default HTML checkbox */
-  /* .switch input {
-    opacity: 0;
-    width: 0;
-    height: 0;
-  }
-   */
+
 
   

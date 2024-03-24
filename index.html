@@ -15,22 +15,21 @@
     <div class="mainContainer light">
     <h3>My Personal Blog<button id="theme-switcher" background-color: transparent>💡</button></h3>
     <div class="container">
-        <form action="#">
-            <label for="username">Username</label>
+        <form id="submitForm"> 
+            <label>Username</label>
             <input type="text" id="username" name="username" placeholder="User name..">
 
-            <label for="title">Title</label>
+            <label>Title</label>
             <input type="text" id="title" name="title" placeholder="Title..">
 
-            <label for="content">Content</label>
-            <textarea id="subject" name="content" placeholder="Write something.." style="height:200px"></textarea>
+            <label>Content</label>
+            <textarea id="content" class="contentClass" name="content" placeholder="Write something.." ></textarea>
 
             <input type="submit" value="Submit">
         </form>
     </div>
 </div>
-    <!-- <script src="./assets/js/form.js"></script> -->
-   <script src="./assets/js/logic.js"></script>
+    <script src="./assets/js/logic.js"></script> 
+    <script src="./assets/js/form.js"></script> 
 </body>
-
 </html>
