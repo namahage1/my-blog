@@ -19,7 +19,7 @@ if (themeSwitcher != null) {
         // If mode is light, apply dark background
         else {
             mode = 'dark';
-            container.setAttribute('class', 'dark container container');
+            container.setAttribute('class', 'dark container');
             mainContainer.setAttribute('class', 'dark');
         }
     });
