@@ -4,29 +4,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/styles.css">
     <link rel="stylesheet" href="./assets/css/blog.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+
     <title>My Blog</title>
 </head>
 <div class="mainContainer light">
 
-    <header class="header"><button onclick="history.back()">Go Back</button><button id="theme-switcher" background-color: transparent>💡</button></header>
+    <header class="header">
+        <button onclick="history.back()">Go Back</button>
+        <button id="theme-switcher" background-color: transparent>💡</button>
+    </header>
 
     <body>
         <div>
             <h1>My blog</h1>
             <div class="container">
-                <div id="title1">1</div>
-                <div>2</div>
-                <div>3</div>
-                <div>4</div>
-                <div>5</div>
+                <div>
+                    <h3>Title 1</h3>
+                    <h5>Content 2</h5>
+                    <p class="myUserName"></p>
+                </div>
+                <div>
+                    <h3>Title 2</h3>
+                    <h5>Content 2</h5>
+                    <p class="myUserName"></p>
+                </div>
+                <div>
+                    <h3 id="newTitle"></h3>
+                    <h5 id="newContent"></h5>
+                    <p class="myUserName"></p>
+                </div>
             </div>
         </div>
         <script src="./assets/js/logic.js"></script>
         <script src="./assets/js/blog.js"></script>
     </body>
-    <footer>Thank you for visiting</footer>
+    <footer>
+        <p>Thank you for visiting</p>
+        <p>shellyAkiyama@gmail.com</p>
+        <p><a href="#">My Portfolio</a></p>
+    </footer>
 </div>
 
 </html>

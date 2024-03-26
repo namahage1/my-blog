@@ -15,6 +15,7 @@ if (themeSwitcher != null) {
             mode = 'light';
             container.setAttribute('class', 'light container');
             mainContainer.setAttribute('class', 'light');
+
         }
         // If mode is light, apply dark background
         else {

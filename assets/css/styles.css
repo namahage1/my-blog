@@ -1,3 +1,4 @@
+/* this file is used for both index ad blog.html */
 
 body {font-family: Arial, Helvetica, sans-serif;
 }
@@ -19,7 +20,7 @@ body {font-family: Arial, Helvetica, sans-serif;
   }
   
   .mainContainer{
-    background-color: rgb(251, 248, 248);
+    background-color: #f0ead6;
     position: relative;
 }
 

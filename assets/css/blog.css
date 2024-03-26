@@ -3,9 +3,19 @@
     display: flex;
     flex-wrap: nowrap;
     flex-direction:column;
-    background-color: rgb(190, 197, 204);
+    background-color: f0ead6;
     justify-content: center;
   
+  }
+   h3, h5{
+    position:relative;
+    margin-top:0%;
+    margin-bottom: 2%;
+  } 
+  p{
+    position:relative;
+    color: #9bb204;
+    margin-bottom: 0%;
   }
 
   .container > div { 
@@ -19,6 +29,11 @@
     font-size: 30px;
   }
 
-  .header{
+
+
+  header{
     text-align: right;
+  }
+  footer{
+    text-align: center;
   }
