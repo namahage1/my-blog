@@ -19,16 +19,20 @@ document.getElementById("submitForm").addEventListener("submit",function(event){
     + "title is : " + `${title.value}`
     +" content is : " + `${content.value.trim()}`); 
 
-    localStorage.setItem('userInfo', JSON.stringify(userInfo));
-    userName.textContext  = userName;
-    display();
-    window.location.href = "./blog.html";
+    
+    if(userInfo.userName !== "" && userInfo.title  !== "" && userInfo.content !== ""){
+        localStorage.setItem('userInfo', JSON.stringify(userInfo));
+        // display();
+        window.location.href = "./blog.html";
+    }else{
+        alert("Input valid User Name, Title and Content");
+    }
 });
 
-function display(){
-    const userInput = JSON.parse(localStorage.getItem('userInfo'));
-    if (userInput !== null) {
-        document.querySelector('#usenameInput').textContent =
-          userInfo.userName + ` ${userInput.title}`;
-      }
-}
+// function display(){
+//     const userInput = JSON.parse(localStorage.getItem('userInfo'));
+//     if (userInput !== null) {
+//         document.querySelector('#usenameInput').textContent =
+//           userInfo.userName + ` ${userInput.title}`;
+//       }
+// }
